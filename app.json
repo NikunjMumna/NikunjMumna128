@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Mx well",
+    "slug": "mx-well",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo1.jpg",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF",
+        "package": "com.Mxwell.TrialApp",
+        "versionCode": 1
+      },
+      "package": "com.TrialApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
